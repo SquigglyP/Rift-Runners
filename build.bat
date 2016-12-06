@@ -1,0 +1,2 @@
+cls
+cl /EHsc /Fo.\obj\ /I.\source\headers\ /IG:\libs\include\ source\main.cpp source\game.cpp source\texture_manager.cpp source/game_map.cpp source/game_world.cpp source/tile.cpp /link /LIBPATH:G:\libs SFML/sfml-system.lib SFML/sfml-window.lib SFML/sfml-main.lib SFML/sfml-graphics.lib /OUT:.\bin\filename.exe
